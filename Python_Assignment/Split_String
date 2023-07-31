@@ -1,0 +1,10 @@
+str1=("enter your no:")                     
+word=str1.split()                             
+a={}
+for i in word:
+    if i in a:
+        a[i]+=1                              
+    else:
+        a[i]=1                       
+     
+print(a)
